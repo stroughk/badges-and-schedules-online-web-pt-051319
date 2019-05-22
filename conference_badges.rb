@@ -22,7 +22,7 @@ def printer(attendees)
     puts attendee 
   end 
   
-  assign_rooms(attendees).each do |name, index|
-    puts a
-  
+  assign_rooms(attendees).each do |assignment|
+    puts assignment
+  end 
 end
